@@ -1,0 +1,199 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - career_options
+  - course_recommendation
+  - college_admissions
+  - exam_preparation
+  - career_confusion
+  - career_advice
+  - scholarships_and_funding
+  - job_opportunities
+  - entrepreneurship
+  - study_abroad
+  - skill_development
+  - career_goals
+  - higher_education_abroad
+  - work_experience
+  - mental_health
+  - industry_insights
+  - scholarship_applications
+  - career_changes
+  - vocational_training
+  - handle_stress
+  - Staying_focused_when_studying
+  - calm_down_when_nervous
+
+
+actions:
+  - action_save_question_to_database
+
+
+responses:
+  utter_greet:
+  - text: "Hey welcome to TrailBuddy! First step to building your career. How are you?"
+
+  utter_cheer_up:
+  - text: "Here is small qoute to cheer you up"
+  - text: "Success is not final, failure is not fatal: It is the courage to continue that counts."
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, How can I help you today!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_career_options:
+    - text: "There are several career options available after high school in India. Some popular choices include engineering, medicine, commerce, arts, and more. It depends on your interests and strengths. It's essential to research your chosen career path thoroughly, understand the admission criteria, and consider your long-term goals before making a decision. Additionally, consider seeking guidance from career counselors or professionals in your chosen field to make an informed choice.
+    Here are some contacts for career guidance
+    Elysian Inspire: +919876775431
+    Career Guide: +917889342121
+    "
+
+  utter_course_recommendation:
+      - text: "When considering courses after the 10th grade in India, it's important to choose a stream that aligns with your interests and career goals. For commerce students, options include B.Com, CA, and BBA. For science students, you can explore engineering, medical, or pure sciences. For arts students, there are various humanities courses.
+      More about it:
+      Science:
+      Bachelor of Science (B.Sc.): You can pursue B.Sc. in various specializations like Physics, Chemistry, Biology, Mathematics, Computer Science, Environmental Science, and more.
+      Bachelor of Pharmacy (B.Pharm): If you're interested in pharmaceutical sciences.
+      Bachelor of Engineering (B.E.) or Bachelor of Technology (B.Tech): For those who want to become engineers in fields like Civil Engineering, Electrical Engineering, Mechanical Engineering, and more.
+      Arts:
+      Bachelor of Arts (B.A.): You can study subjects like English Literature, History, Sociology, Psychology, Political Science, Economics, and many more.
+      Bachelor of Fine Arts (BFA): For those with a passion for visual arts, music, dance, or theater.
+      Commerce:
+      Bachelor of Commerce (B.Com): Specializations may include General Commerce, Accounting, Finance, and Banking.
+      Bachelor of Business Administration (BBA): If you're interested in business and management.
+      Medical and Healthcare:
+      Bachelor of Medicine and Bachelor of Surgery (MBBS): For those aspiring to become doctors.
+      Bachelor of Dental Surgery (BDS): If you're interested in dentistry.
+      Bachelor of Nursing (B.Sc. Nursing): For a career in nursing.
+      Computer Science and IT:
+      Bachelor of Computer Science (BCS) or Bachelor of Computer Applications (BCA): For a career in computer science and programming.
+      Bachelor of Technology (B.Tech) in Information Technology (IT): Focused on IT-related subjects.
+      Management:
+      Bachelor of Business Administration (BBA): To start your journey into business and management.
+      Bachelor of Hotel Management (BHM): If you're interested in the hospitality industry.
+      Law:
+
+      Bachelor of Laws (LL.B): The first step toward a career in law.
+      Social Sciences:
+
+      Bachelor of Social Work (BSW): For those interested in social work.
+      Bachelor of Arts (B.A.) in Psychology: To study human behavior and mental processes.
+      Engineering:
+      Bachelor of Engineering (B.E.) or Bachelor of Technology (B.Tech): You can choose from various engineering disciplines like Mechanical Engineering, Electrical Engineering, Civil Engineering, and more.
+      Education:
+      Bachelor of Education (B.Ed): To become a teacher or educator.
+      Design:
+      Bachelor of Design (B.Des): For careers in fashion design, graphic design, product design, and more.
+      Commerce and Finance:
+      Chartered Accountancy (CA): If you want to become a Chartered Accountant.
+      Cost and Management Accountancy (CMA): Focused on cost and management accounting."
+
+  utter_college_admissions:
+      - text: "Getting admission to top colleges in India can be competitive. The application process varies by college and course. To secure admission, focus on your academics, prepare for entrance exams, and make sure to meet the eligibility criteria."
+
+  utter_exam_preparation:
+      - text: "Preparing for competitive exams like JEE Main or NEET requires dedication and a well-structured study plan. I can provide you with study tips and resources if you specify the exam you're preparing for.
+      JEE Main: https://jeemain.nta.nic.in/about-jeemain-2023/
+      NEET: https://neet.nta.nic.in/"
+
+  utter_career_confusion:
+      - text: "It's common to feel confused about your career path. To provide guidance, I'll need to know more about your interests, strengths, and career aspirations. Could you share some information about what you enjoy doing and your future goals?"
+
+  utter_career_advice:
+      - text: "The highest-paying careers in India can vary, but some lucrative options include software engineering, data science, and management roles. Unconventional career paths like content creation or ethical hacking can also be rewarding. Building in-demand skills and networking can boost your career. How can I assist you further?"
+
+  utter_scholarships_and_funding:
+      - text: "There are various scholarships available for higher education in India, including government and private scholarships. To apply, you'll need to meet eligibility criteria and submit the required documents. I can provide more information if you specify the type of scholarship or funding you're interested in.
+      "
+
+  utter_job_opportunities:
+      - text: "Job opportunities for computer science graduates in India are diverse, with roles in software development, data analysis, and IT consulting. Engineering students often find job placements through campus recruitment. High school students can explore internships to gain experience. How can I assist you with your job-related inquiries?"
+
+  utter_entrepreneurship:
+      - text: "Starting your own business in India can be an exciting journey. It's essential to plan, research, and be prepared for challenges. Would you like tips on entrepreneurship or specific information about starting a business?"
+
+  utter_study_abroad:
+      - text: "Studying abroad can open up global opportunities. The benefits include exposure to diverse cultures and high-quality education. To apply, you'll need to research universities, meet admission requirements, and consider scholarships.
+      There are multiple options you can try
+      Exchange Programs:
+      Exchange Programs:
+       Language Immersion Programs
+       Internships Abroad:
+       Full Degree Programs:
+       Popular Study Abroad Destinations:
+       Scholarship and Funding Opportunities:
+       Consult with Your University's Study Abroad Office:
+       Research and Plan Ahead:
+       Customized Study Abroad Advice:"
+
+  utter_skill_development:
+      - text: "Improving your communication skills and developing soft skills is crucial for career success. There are many online courses and resources available for skill development in India. I can recommend some if you specify the skills you'd like to enhance."
+
+  utter_career_goals:
+      - text: "Setting long-term career goals is essential for planning your career path. SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) can help. What are your career aspirations, and would you like assistance in setting goals?"
+
+  utter_higher_education_abroad:
+      - text: "Applying for higher education abroad involves completing application forms, submitting transcripts, and writing a compelling statement of purpose (SOP). The entrance exams and admission process can vary by country and university. Do you have specific questions about studying abroad?"
+
+  utter_work_experience:
+      - text: "Pursuing internships during high school is a valuable way to gain work experience. Internships can help you explore career options and build your resume. How can I assist you with your work experience inquiries?"
+
+  utter_mental_health:
+      - text: "Managing stress and maintaining mental health during high school is important. Resources such as counseling services and self-care practices can help. If you have specific concerns, feel free to share, and I can provide guidance."
+
+  utter_industry_insights:
+      - text: "The IT industry in India is known for its growth, while the healthcare sector is experiencing advancements. Emerging industries include renewable energy and e-commerce. If you're interested in a specific industry, I can provide more insights."
+
+  utter_scholarship_applications:
+      - text: "Writing a compelling scholarship essay and preparing application documents are crucial steps in securing scholarships. Government-funded scholarships are available in India. Would you like tips on scholarship applications or information about specific scholarships?"
+
+  utter_career_changes:
+      - text: "Transitioning to a different career in India is possible with careful planning and upskilling. Many individuals successfully switch careers. Would you like advice on making a career change?"
+
+  utter_vocational_training:
+      - text: "Vocational training programs in India offer skill development and can lead to successful careers. Examples include courses in hospitality, electronics, and automotive. "
+
+
+  utter_handle_stress:
+    - text: "It's normal to feel stressed during exams and busy times in school. One helpful tip is to plan your study time and break it into smaller, manageable chunks. Make sure to take short breaks to relax and recharge. Also, don't hesitate to ask teachers or friends for help if you're stuck on something. You've got this!"
+
+  utter_Staying_focused_when_studying:
+    - text: "Staying focused while studying can be a challenge. Find a quiet, comfortable place to study without distractions. Set specific goals for your study session and take short breaks to keep your mind fresh. Remember, it's okay to ask for help if you're stuck on something. And don't forget to reward yourself when you reach your goals!"
+
+  utter_calm_down_when_nervous:
+    - text: "you can take deep breaths when you are nervous,
+      you can also practice mindfulness, which means paying attention to the present moment,
+      you can watch apps and videos that can guide you through mindfulness exercises."
+
+  utter_study_life_balance:
+    - text: "you should be able to balance study time and activities by scheduling,
+      you need to prioritize task and say no to friends when I am focusing on school,
+      you can take breaks and downtime too"
+
+
+  utter_self_care:
+    - text: "Taking care of yourself is essential. Eat balanced meals, get enough sleep, and stay active. Also, make time for hobbies and activities you enjoy. Create a bedtime routine, limit screen time before bed, and keep your bedroom comfortable and dark. Relaxation techniques, like deep breathing, can also help you fall asleep."
+
+  utter_well_being_relaxed:
+    - text: "Of course! Try taking short breaks to do something you enjoy, like reading, drawing, or listening to music. Simple mindfulness exercises and deep breathing can also help you relax."
+
+  utter_seeking_help:
+    - text: "Yes, most schools have counselors or mental health professionals you can talk to about your feelings. They're there to help and keep your conversations private"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
