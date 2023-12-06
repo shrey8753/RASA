@@ -1,0 +1,254 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - good morning
+    - goodevening
+    - good afternoon
+    -greetings
+    -Howdy
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    -okay
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: career_options
+  examples: |
+    - What career options are available after high school in India?
+    - Can you suggest career paths for science students in India?
+    - Tell me about career prospects in engineering.
+    - What can I do after my 12th?
+    - What can i do after my boards?
+    - Course after 12th
+    
+
+- intent: course_recommendation
+  examples: |
+    - What courses should I consider after 10th grade in India?
+    - Suggest some courses for commerce students in India.
+    - Which stream is suitable for medical aspirants in India?
+    - What should i learn to do engineering?
+    - What should i do?
+
+- intent: college_admissions
+  examples: |
+    - How can I get admission to a top engineering college in India?
+    - Tell me about the application process for medical colleges in India.
+    - What are the best colleges for arts in India?
+    - How to do college admissions
+    - Admissions in india
+
+- intent: exam_preparation
+  examples: | 
+    - How do I prepare for competitive exams like JEE Main?
+    - What are some tips for NEET preparation?
+    - Give me advice on preparing for board exams.
+    -
+- intent: career_confusion
+  examples: |
+    - I'm confused about my career path. Can you help me?
+    - I don't know which stream to choose after 10th grade.
+    - Can you provide guidance on choosing the right career?
+    - I am confused on my career  
+
+- intent: career_advice
+  examples: |
+    - What are the highest-paying careers in India?
+    - Tell me about unconventional career options in India.
+    - What skills are in demand in the Indian job market?
+- intent: scholarships_and_funding
+  examples: |
+    - Are there scholarships available for higher education in India?
+    - How can I apply for financial aid for college in India?
+    - Tell me about government scholarships for students in India.
+    - scholarships in india
+    - scholarships and financial aid
+    - scholarship
+    - financial aid
+- intent: job_opportunities
+  examples: |
+    - What are the job opportunities for computer science graduates in India?
+    - Can you provide information on job placements for engineering students?
+    - Tell me about internships for high school students in India.
+    - what are my job opportunities
+- intent: entrepreneurship
+  examples: |
+    - How can I start my own business in India after high school?
+    - What are the challenges of becoming an entrepreneur in India?
+    - Give me tips for pursuing a startup in India.
+- intent: study_abroad
+  examples: |
+    - What are the benefits of studying abroad after high school in India?
+    - How can I apply for universities overseas from India?
+    - Tell me about Indian students studying abroad.
+- intent: skill_development
+  examples: |
+    - How can I improve my communication skills in India?
+    - What are the essential soft skills for career success?
+    
+    -Recommend online courses for skill development in India.
+- intent: career_goals
+  examples: |
+    - What are some long-term career goals I should set in India?
+    - How can I create a career roadmap for myself in India?
+    - Tell me about setting SMART career goals.
+- intent: higher_education_abroad
+  examples: |
+    - How can I apply for higher education abroad from India?
+    - What are the entrance exams for studying abroad?
+    -Share tips for writing a compelling statement of purpose (SOP).
+- intent: work_experience
+  examples: |
+    - Should I pursue internships during high school in India?
+    - How can I gain relevant work experience as a high school student?
+    - Tell me about the importance of internships in India.
+- intent: mental_health
+  examples: |
+    - How do I manage stress and anxiety during high school in India?
+    - What resources are available for mental health support in India?
+    - Share tips for maintaining a healthy work-life balance.
+- intent: industry_insights
+  examples: |
+    - Provide insights into the IT industry in India.
+    - Tell me about the trends in the healthcare sector in India.
+    - Share information on emerging industries in India.
+- intent: scholarship_applications
+  examples: |
+    - How do I write a compelling scholarship essay in India?
+    - Share tips for preparing scholarship application documents.
+    - Provide information on government-funded scholarships in India.
+- intent: career_changes
+  examples: |
+    - How can I transition to a different career in India?
+    - Tell me about opportunities for career changers in India.
+    - Share success stories of individuals who switched careers in India.
+- intent: vocational_training
+  examples: |
+    - What vocational training programs are available in India?
+    - How can vocational training lead to a successful career in India?
+    - Tell me about skill development through vocational courses.
+
+- intent: handle_stress
+  examples: |
+     - How can I handle stress during exams and busy school days?
+     - I am stressed about my exams
+     - I am done with busy school day
+     - I am stressed about deadlines
+- intent: Staying_focused_when_studying
+  examples: |
+    - How can I study without distractions?
+    - Tell me the steps to stay focused when studying?
+    - Please let me know the action if I am stuck on the task?
+
+- intent: calm_down_when_nervous
+  examples: |
+    - What you can do when you are nervous?
+    - What are the steps tao calm down your nerves?
+
+- intent: study_life_balance
+  examples: |
+    - How will i balance study time?
+    - How will i perform task when study to be balanced? 
+    - Can we take breaks while studying?    
+
+- intent: self_care
+  examples: |
+      - What can you do to feel better overall?
+      - How can you get a better night sleep?
+
+- intent: well_being_relaxed
+  examples: |
+      - How can I feel less stressed?
+      - I feel stressed when I am at task?
+      - How can I reduce my stress?
+- intent: seeking_help
+  examples: |
+    - I feel scared to share my feeling. Whom should I talk to?
+    - Who can I talk to if I don't want to tell my parents about my feelings?
+
+- intent: seeking_help_concern
+  examples: |
+    - Is there someone at school I can speak with about my concerns?
+    - I am concerned about sharing my feelings

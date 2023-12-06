@@ -1,0 +1,129 @@
+version: "3.1"
+
+stories:
+
+
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: User asks about career options
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_happy
+
+
+
+- story: User asks for career options
+  steps:
+    - intent: career_options
+    - action: utter_career_options
+
+- story: User asks for course recommendations
+  steps:
+    - intent: course_recommendation
+    - action: utter_course_recommendation
+
+- story: User inquires about college admissions
+  steps:
+    - intent: college_admissions
+    - action: utter_college_admissions
+
+- story: User seeks exam preparation advice
+  steps:
+    - intent: exam_preparation
+    - action: utter_exam_preparation
+
+- story: User expresses career confusion
+  steps:
+    - intent: career_confusion
+    - action: utter_career_confusion
+
+- story: User requests career advice
+  steps:
+    - intent: career_advice
+    - action: utter_career_advice
+
+- story: User asks about scholarships and funding
+  steps:
+    - intent: scholarships_and_funding
+    - action: utter_scholarships_and_funding
+
+- story: User inquires about job opportunities
+  steps:
+    - intent: job_opportunities
+    - action: utter_job_opportunities
+
+- story: User expresses interest in entrepreneurship
+  steps:
+    - intent: entrepreneurship
+    - action: utter_entrepreneurship
+
+- story: User wants to study abroad
+  steps:
+    - intent: study_abroad
+    - action: utter_study_abroad
+
+- story: User seeks advice on skill development
+  steps:
+    - intent: skill_development
+    - action: utter_skill_development
+
+- story: User wants to handle stress
+  steps:
+   - intent : handle_stress
+   - action: utter_handle_stress
+
+- story: User wants to stay focused when studying
+  steps:
+   - intent : Staying_focused_when_studying
+   - action: utter_Staying_focused_when_studying
+
+- story: User needs to calm down when nervous
+  steps:
+   - intent : calm_down_when_nervous
+   - action: utter_calm_down_when_nervous
+
+- story: User needs to balance study life
+  steps:
+    - intent: study_life_balance
+    - action: utter_study_life_balance
+
+- story: User to do self care
+  steps:
+    - intent: self_care
+    - action: utter_self_care
+
+- story: User to make well being relaxed
+  steps:
+    - intent: well_being_relaxed
+    - action: utter_well_being_relaxed
+
+- story: User seeking help
+  steps:
+    - intent: seeking_help
+    - action: utter_seeking_help
+
+- story: User seeking vocational training
+  steps:
+      - intent: vocational_training
+      - action: utter_vocational_training
